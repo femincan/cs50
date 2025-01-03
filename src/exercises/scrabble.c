@@ -36,7 +36,7 @@ int compute_score(string word)
   {
     char lower_char = tolower(word[i]);
 
-    if (lower_char >= 97 && lower_char <= 122)
+    if (lower_char >= 'a' && lower_char <= 'z')
     {
       score += POINTS[lower_char - 97];
     }
